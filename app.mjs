@@ -13,6 +13,5 @@ jokeWords.forEach((word) =>{
     coloredJoke += colors[colorIndex](word) + " ";
 }); 
 
-
 console.log(coloredJoke);
 
