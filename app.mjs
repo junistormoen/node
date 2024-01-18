@@ -11,7 +11,8 @@ let coloredJoke = "";
 jokeWords.forEach((word) =>{
     const colorIndex = Math.floor(Math.random() * colors.length);
     coloredJoke += colors[colorIndex](word) + " ";
-});
+}); 
+
 
 console.log(coloredJoke);
 
